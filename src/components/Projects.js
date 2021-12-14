@@ -66,7 +66,7 @@ function Projects() {
                 {/* --------------portfolio item 06-------------- */}
                 <Project 
                     title="Personal Portfolio" 
-                    description="The website you are currently viewing was created using React and CSS. The TypeScript library, tsParticles, was used for the animated effect in the hero section." 
+                    description="The website you are currently viewing was created using React and CSS with BEM methodology. The TypeScript library, tsParticles, was used for the animated effect in the hero section." 
                     liveURL="#home" 
                     sourceCodeURL="https://codepen.io/WillCary/project/editor/ZqxqRj" 
                     src={portfolioImage}

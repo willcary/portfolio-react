@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 function Project({ title, description, liveURL, sourceCodeURL, src, alt }) {
     const designateTarget = () => {
-        return liveURL.includes('#') ? "_self" : "_blank"
+        return liveURL.includes('#') ? 'target="_self"' : `target="_blank" rel="noreferrer"`
     }
 
     return (
@@ -13,7 +13,7 @@ function Project({ title, description, liveURL, sourceCodeURL, src, alt }) {
                 <p className="portfolio__item-description">{description}</p> 
                 <div className="links">
                     {liveURL ? <a href={liveURL} target={designateTarget()} className="btn portfolio__item-btn">view live</a> : null}
-                    {sourceCodeURL ? <a href={sourceCodeURL} target="_blank" className="btn portfolio__item-btn">source code</a> : null}
+                    {sourceCodeURL ? <a href={sourceCodeURL} target="_blank" rel="noreferrer" className="btn portfolio__item-btn">source code</a> : null}
                 </div>
             </div>
             <a href={liveURL} target={designateTarget()} className="portfolio__img--anchor">
