@@ -15,8 +15,6 @@ function App() {
       <About />
       <Projects />
       <Footer />
-
-      <script src="./js/index.js"></script>
     </>
   );
 }
