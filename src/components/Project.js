@@ -17,7 +17,7 @@ function Project({ title, description, liveURL, sourceCodeURL, src, alt }) {
                 </div>
             </div>
             <a href={liveURL} target={designateTarget()} className="portfolio__img--anchor">
-                <img src={`../images/${src}`} alt={alt} className="portfolio__img" />
+                <img src={src} alt={alt} className="portfolio__img" />
             </a>
         </div>
     )

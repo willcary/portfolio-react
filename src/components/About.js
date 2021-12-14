@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutImg from '../images/Will-on-boulder.jpg'
 
 function About() {
     return (
@@ -13,7 +14,7 @@ function About() {
                 skywalker. Solo jango darth antilles wookiee. Dagobah vader aayla sebulba solo kenobi c-3p0 windu ponda.</p>
             </div>
 
-            <img src="./images/Will-on-boulder.jpg" alt="Will and his dog on a boulder" className="about-me__img" />
+            <img src={aboutImg} alt="Will and his dog on a boulder" className="about-me__img" />
         </section>
     )
 }
