@@ -17,9 +17,8 @@ function Services() {
                     amidala palpatine. Lars solo ahsoka fett skywalker binks mace.</p>
                 </div>
                 <div className="service service-3">
-                    <h3>WordPress</h3>
-                    <p>Skywalker kessel bespin mon ahsoka ben dooku qui-gon. Ben amidala ackbar skywalker jar. Luke ben bothan boba leia jawa
-                    antilles amidala qui-gonn.</p>
+                    <h3>Design & Accessibility Testing</h3>
+                    <p>Although I do not currently use conventional designer tools (yet!), I love creating clear, effective and attractive UIs that follow accessibility standards. I also have experience altering existing sites to be WCAG compliant.</p>
                 </div>
             </div> 
             <a href="#work" className="btn">My Work</a>
