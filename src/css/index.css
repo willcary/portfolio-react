@@ -360,8 +360,21 @@ header {
 }
 
 /* ---- Introduction ---- */
+.light-background {
+  background-color: #fff;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url(./../images/jamesville-reservoir.jpg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: brightness(60%);
+}
+
 .intro {
-  min-height: 95vh;
+  min-height: 100vh;
 }
 
 .intro__img {
@@ -529,6 +542,7 @@ header {
   background-color: #3f3f3f;
   background-image: url(./../images/jordan-pond-1.jpg);
   background-size: cover;
+  /* background-position: center; */
   background-blend-mode: multiply;
   color: var(--clr-light);
   text-align: center;
@@ -544,7 +558,7 @@ header {
   max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: auto;
   gap: 0.5em;
 }
@@ -611,6 +625,12 @@ header {
 .portfolio__item-text:hover + a .portfolio__img {
   transform: scale(1.1);
   opacity: 0.85;
+}
+
+@media (min-width: 400px) {
+  .portfolio {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }
 
 /* ---- My Work ---- */
