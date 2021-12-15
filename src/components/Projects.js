@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import './../css/projects.css'
 import climateAppImage from '../images/Climate-Comparison-App.jpg'
 import coiltekImage from '../images/CS-5000-product.jpg'
 import speedTypingImage from '../images/speed-typing-game.JPG'

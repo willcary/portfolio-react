@@ -1,0 +1,58 @@
+/* ---- Introduction ---- */
+.intro {
+  background-color: #fff;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url(./../images/jamesville-reservoir.jpg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: brightness(60%);
+  padding: 0;
+}
+
+.intro__background {
+  min-height: 100vh;
+}
+
+.intro__img {
+  box-shadow: var(--bs);
+}
+
+@media (min-width: 600px) {
+  .intro__background {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    align-items: center;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+
+  .intro__img {
+    grid-area: img;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .section__title--intro {
+    align-self: end;
+  }
+
+  .section__subtitle--intro {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+    padding-left: calc(250px + 1em);
+  }
+}

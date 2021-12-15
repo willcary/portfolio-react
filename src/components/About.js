@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImg from '../images/Will-on-boulder.jpg'
+import './../css/about.css'
 
 function About() {
     return (
