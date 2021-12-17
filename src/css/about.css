@@ -6,6 +6,10 @@
 
 .about-me__img {
   box-shadow: var(--bs);
+  object-fit: cover;
+  object-position: top;
+  max-height: 350px;
+  width: 100%;
 }
 
 @media (min-width: 600px) {

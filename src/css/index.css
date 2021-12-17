@@ -45,9 +45,12 @@
   }
 }
 
-/* ---- General Styles ---- */
-html {
-  scroll-behavior: smooth;
+/* ------------------------ General Styles ------------------------ */
+/*Ensure no one becomes motion sick*/
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {

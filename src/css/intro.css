@@ -1,30 +1,49 @@
 /* ---- Introduction ---- */
 .intro {
-  background-color: #fff;
+  background-color: var(--clr-light);
   background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0.85),
-      rgba(255, 255, 255, 0.85)
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
     ),
     url(./../images/jamesville-reservoir.jpg);
   background-size: cover;
   background-position: center;
-  backdrop-filter: brightness(60%);
-  padding: 0;
+  padding: 5em 2em;
 }
 
 .intro__background {
-  min-height: 100vh;
+  min-height: calc(100vh - 160px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__title--intro strong {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url("./../images/code.jpg");
+  background-size: cover;
+  background-position: top;
+  color: transparent;
 }
 
 .intro__img {
   box-shadow: var(--bs);
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 @media (min-width: 600px) {
+  .intro {
+    padding: 0;
+  }
+
   .intro__background {
     display: grid;
     width: min-content;
+    min-height: 100vh;
     margin: 0 auto;
     align-items: center;
     grid-column-gap: 1em;
@@ -37,6 +56,8 @@
   .intro__img {
     grid-area: img;
     min-width: 250px;
+    min-height: 250px;
+    object-fit: cover;
     position: relative;
     z-index: 2;
   }
