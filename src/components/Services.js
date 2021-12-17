@@ -8,13 +8,11 @@ function Services() {
             <div className="services">
                 <div className="service service-1">
                     <h3>Websites</h3>
-                    <p>Lucas ipsum dolor sit amet wedge kashyyyk r2-d2 padmé boba darth solo organa jango yavin. Yoda secura jango thrawn darth
-                    jabba vader. Calrissian boba secura moff mandalore.</p>
+                    <p>I have experience making responsive web sites for clients from scratch and with external libraries like Bootstrap. I enjoy bringing ideas to life and making modern, functional websites.</p>
                 </div>
                 <div className="service service-2">
                     <h3>Web Apps</h3>
-                    <p>Grievous organa mon maul skywalker obi-wan solo obi-wan skywalker. Dagobah sebulba tusken raider hoth anakin hutt organa
-                    amidala palpatine. Lars solo ahsoka fett skywalker binks mace.</p>
+                    <p>Recently I've been diving into React and love writing modular, maintainable code to create interactive web apps. I'm particularly fond of using data and determining the most effective way to display that data for the user.</p>
                 </div>
                 <div className="service service-3">
                     <h3>Design & Accessibility Testing</h3>

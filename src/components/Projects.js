@@ -28,7 +28,7 @@ function Projects() {
                 {/* --------------portfolio item 02-------------- */}
                 <Project 
                     title="Coiltek Website" 
-                    description="Custom website made for Coil Technology, Inc. This site was made using html, css, and bootstrap and was deployed through bluehost." 
+                    description="Custom website made for Coil Technology, Inc. This site was made using html, css, and bootstrap. It was deployed through bluehost." 
                     liveURL="https://www.coiltek.com/" 
                     sourceCodeURL="" 
                     src={coiltekImage} 
@@ -68,7 +68,7 @@ function Projects() {
                 {/* --------------portfolio item 06-------------- */}
                 <Project 
                     title="Personal Portfolio" 
-                    description="The website you are currently viewing was created using React and CSS with BEM methodology. These project cards were made with a reusable project component." 
+                    description="The website you are currently viewing was created using React and CSS with BEM methodology. These project cards were made with one reusable project component." 
                     liveURL="#home" 
                     sourceCodeURL="https://codepen.io/WillCary/project/editor/ZqxqRj" 
                     src={portfolioImage}
