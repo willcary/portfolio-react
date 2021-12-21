@@ -8,13 +8,23 @@ function About() {
             <h2 className="section__title section__title--about">About me</h2>
             <p className="section__subtitle section__subtitle--about">Developer based in Chapel Hill, NC</p>
             <div className="about-me__body">
-                <p>Wampa padmé sith darth mace. Calamari grievous kamino grievous qui-gon kashyyyk secura. Darth hutt kamino yavin thrawn
-                leia skywalker. Skywalker zabrak mon darth. Vader kamino ben lars luke organa. Jade kessel obi-wan kenobi droid gonk
-                dagobah calrissian. Kit tatooine vader c-3p0 biggs darth. Dantooine skywalker kamino luke r2-d2 hoth grievous mara solo.</p>
+                <p>I am a motivated developer with experience designing and implementing responsive websites and apps. I enjoy making things that are aesthetically pleasing, functional, and useful. I'm a perpetual learner. Along the way, I have earned both a B.A and M.S. in Geology, I've taught myself web development, and even taught both science and coding to 4-6th grade students for 3 years. My broad background has prepared me well to learn and think logically. However, I also thrive when prompted to produce original, inventive ideas. I find coding to be the perfect balance of logic and creativity. I'm constantly working to improve and broaden my skillset with relevant technologies.</p>
                 <p>When I'm not coding, I'm usually pursuing some outdoor activity inluding trail running, hiking, mountain biking, cross country skiing, paddleboarding, etc...</p>
             </div>
-
             <img src={aboutImg} alt="Will and his dog on a boulder" className="about-me__img" />
+            <div class="about-me__skills">
+                <h3>Skills</h3>
+                <div class="about-me__skills-box">
+                    <div class="about-me__skills-item">React</div>
+                    <div class="about-me__skills-item">HTML</div>
+                    <div class="about-me__skills-item">CSS</div>
+                    <div class="about-me__skills-item">JavaScript</div>
+                    <div class="about-me__skills-item">Responsive Design</div>
+                    <div class="about-me__skills-item">Bootstrap</div>
+                    <div class="about-me__skills-item">Scss</div>
+                    <div class="about-me__skills-item">Git</div>
+                </div>
+            </div>
         </section>
     )
 }

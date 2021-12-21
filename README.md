@@ -4,7 +4,7 @@ Will cary's personal portolio to showcase his front-end development skills. View
 
 ## Motivation
 
-I built this app to share who I am and the work I have done thus far in my coding career. It also proved an opportunity to continue learning about how to write clean code, improve my design and CSS skills, and further build my proficiency with React. Through the process, I learned more about how to break down code into modular architecture, especially CSS.
+I built this app to share who I am and the work I have done thus far in my coding career. It also proved an opportunity to continue learning about how to write clean code, improve my design and CSS skills, and further build my proficiency with React. Through the process, I learned more about how to break down code into modular architecture, especially CSS, and how to write CSS using a BEM methodology.
 
 ## Technologies
 

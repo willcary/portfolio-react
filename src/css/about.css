@@ -8,8 +8,25 @@
   box-shadow: var(--bs);
   object-fit: cover;
   object-position: top;
-  max-height: 350px;
+  max-height: 400px;
   width: 100%;
+}
+
+.about-me__skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.about-me__skills-item {
+  margin: 1em 0.5em 0;
+  padding: 0.3em 1em;
+  background-color: var(--clr-dark);
+  border: 1px solid var(--clr-accent2);
+  border-radius: 10px;
+  text-align: center;
+  color: var(--clr-light);
 }
 
 @media (min-width: 600px) {
@@ -19,7 +36,8 @@
     grid-template-areas:
       "title img"
       "subtitle img"
-      "text img";
+      "text img"
+      "skills skills";
     grid-column-gap: 2em;
   }
 
@@ -46,5 +64,9 @@
 
   .about-me__body {
     grid-area: text;
+  }
+
+  .about-me__skills {
+    grid-area: skills;
   }
 }
