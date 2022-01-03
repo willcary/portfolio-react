@@ -12,17 +12,17 @@ function About() {
                 <p>When I'm not coding, I'm usually pursuing some outdoor activity inluding trail running, hiking, mountain biking, cross country skiing, paddleboarding, etc...</p>
             </div>
             <img src={aboutImg} alt="Will and his dog on a boulder" className="about-me__img" />
-            <div class="about-me__skills">
+            <div className="about-me__skills">
                 <h3>Skills</h3>
-                <div class="about-me__skills-box">
-                    <div class="about-me__skills-item">React</div>
-                    <div class="about-me__skills-item">HTML</div>
-                    <div class="about-me__skills-item">CSS</div>
-                    <div class="about-me__skills-item">JavaScript</div>
-                    <div class="about-me__skills-item">Responsive Design</div>
-                    <div class="about-me__skills-item">Bootstrap</div>
-                    <div class="about-me__skills-item">Scss</div>
-                    <div class="about-me__skills-item">Git</div>
+                <div className="about-me__skills-box">
+                    <div className="about-me__skills-item">React</div>
+                    <div className="about-me__skills-item">HTML</div>
+                    <div className="about-me__skills-item">CSS</div>
+                    <div className="about-me__skills-item">JavaScript</div>
+                    <div className="about-me__skills-item">Responsive Design</div>
+                    <div className="about-me__skills-item">Bootstrap</div>
+                    <div className="about-me__skills-item">Scss</div>
+                    <div className="about-me__skills-item">Git</div>
                 </div>
             </div>
         </section>
