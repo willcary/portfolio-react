@@ -12,7 +12,7 @@ function Services() {
                 </div>
                 <div className="service service-2">
                     <h3>Web Apps</h3>
-                    <p>Recently I've been diving into React and love writing modular, maintainable code to create interactive web apps. I'm particularly fond of using data and determining the most effective way to display that data for the user.</p>
+                    <p>Recently I've been diving into React and like writing modular, maintainable code to create interactive web apps. I'm particularly fond of using data and determining the most effective way to display that data for the user.</p>
                 </div>
                 <div className="service service-3">
                     <h3>Design & Accessibility Testing</h3>
