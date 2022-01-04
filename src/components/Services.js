@@ -16,7 +16,7 @@ function Services() {
                 </div>
                 <div className="service service-3">
                     <h3>Design & Accessibility Testing</h3>
-                    <p>Although I do not currently use conventional designer tools (yet!), I love creating clear, effective and attractive UIs that follow accessibility standards. I also have experience altering existing sites to be WCAG compliant.</p>
+                    <p>I love creating clear, effective and attractive UIs that follow accessibility standards. I also have experience altering existing sites to be WCAG compliant.</p>
                 </div>
             </div> 
             <a href="#work" className="btn">My Work</a>
