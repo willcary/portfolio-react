@@ -15,7 +15,7 @@ function Services() {
                     <p>Recently I've been diving into React and like writing modular, maintainable code to create interactive web apps. I'm particularly fond of using data and determining the most effective way to display that data for the user.</p>
                 </div>
                 <div className="service service-3">
-                    <h3>Design & Accessibility Testing</h3>
+                    <h3>Design & Accessibility</h3>
                     <p>I love creating clear, effective and attractive UIs that follow accessibility standards. I also have experience altering existing sites to be WCAG compliant.</p>
                 </div>
             </div> 
