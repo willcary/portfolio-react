@@ -70,7 +70,7 @@ function Projects() {
                     title="Personal Portfolio" 
                     description="The website you are currently viewing was created using React and CSS with BEM methodology. These project cards were made with one reusable project component." 
                     liveURL="#home" 
-                    sourceCodeURL="https://codepen.io/WillCary/project/editor/ZqxqRj" 
+                    sourceCodeURL="https://github.com/willcary/portfolio-react" 
                     src={portfolioImage}
                     alt="Portfolio Site picture"
                 />

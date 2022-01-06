@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 function Project({ title, description, liveURL, sourceCodeURL, src, alt }) {
     const designateTarget = () => {
-        return liveURL.includes('#') ? 'target="_self"' : `target="_blank" rel="noreferrer"`
+        return liveURL.includes('#') ? "_self" : '"_blank" rel="noreferrer"';
     }
 
     return (
