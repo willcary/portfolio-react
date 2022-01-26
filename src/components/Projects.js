@@ -5,7 +5,6 @@ import climateAppImage from '../images/Climate-Comparison-App.jpg'
 import coiltekImage from '../images/CS-5000-product.jpg'
 import speedTypingImage from '../images/speed-typing-game.JPG'
 import picSomeImage from '../images/Pic-Some-1.JPG'
-import resumeImage from '../images/Responsive-Resume.jpg'
 import portfolioImage from '../images/portfolio.JPG'
 import backstageTalks from '../images/backstage-talks.JPG'
 
