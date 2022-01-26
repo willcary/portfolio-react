@@ -19,7 +19,6 @@ function Projects() {
                 <Project 
                     title="Climate Comparison App" 
                     description="React app that compares climates between two locations by using the MapQuest geocode API and the MeteoStat API. Recharts was used to create graphs." 
-                    // light and dark modes are available.
                     liveURL="https://climate-comparison-app.netlify.app/" 
                     sourceCodeURL="https://github.com/willcary/climate-comparison-public" 
                     src={climateAppImage}
