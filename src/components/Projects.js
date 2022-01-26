@@ -7,6 +7,7 @@ import speedTypingImage from '../images/speed-typing-game.JPG'
 import picSomeImage from '../images/Pic-Some-1.JPG'
 import resumeImage from '../images/Responsive-Resume.jpg'
 import portfolioImage from '../images/portfolio.JPG'
+import backstageTalks from '../images/backstage-talks.JPG'
 
 function Projects() {
     return (
@@ -37,6 +38,16 @@ function Projects() {
 
                 {/* --------------portfolio item 03-------------- */}
                 <Project 
+                    title="Backstage Talks" 
+                    description="Recreation of the Backstage Talks website (https://backstagetalks.com/). React app that implements responsive scroll snapping and animated background-color transitions." 
+                    liveURL="https://backstage-talks.netlify.app/" 
+                    sourceCodeURL="https://github.com/willcary/backstage-talks" 
+                    src={backstageTalks}
+                    alt="Picture of recreated Backstage Talks site."
+                />
+
+                {/* --------------portfolio item 04-------------- */}
+                <Project 
                     title="Speed Typing Game" 
                     description="React app that tracks how many words per minute you type and uses the Window Storage API to retain your high score in localStorage." 
                     liveURL="https://typing-words-per-minute.netlify.app/" 
@@ -44,31 +55,22 @@ function Projects() {
                     src={speedTypingImage}
                     alt="Speed typing game picture"
                 />
-
-                {/* --------------portfolio item 04-------------- */}
+                
+                {/* --------------portfolio item 05-------------- */}
                 <Project 
                     title="Pic Some App" 
-                    description='React app that allows users to favorite pictures, add them to the cart and "order". The base of this project was made through an online course and is not a functional store.*'
+                    description='React app that allows users to favorite pictures, add them to the cart and "order". 
+                    *This is not intended to be a functional store.*'
                     liveURL="https://pict-some.netlify.app/" 
                     sourceCodeURL="https://github.com/willcary/pic-some" 
                     src={picSomeImage}
                     alt="Pic-Some app home page"
                 />
                 
-                {/* --------------portfolio item 05-------------- */}
-                <Project 
-                    title="Responsive Resume" 
-                    description="My resume, designed to be responsive to screen size and developed using html and scss. Please peruse for more information about me." 
-                    liveURL="https://codepen.io/WillCary/project/full/ZqxqRj" 
-                    sourceCodeURL="https://codepen.io/WillCary/project/editor/ZqxqRj" 
-                    src={resumeImage}
-                    alt="Picture of resume"
-                />
-                
                 {/* --------------portfolio item 06-------------- */}
                 <Project 
                     title="Personal Portfolio" 
-                    description="The website you are currently viewing was created using React and CSS with BEM methodology. These project cards were made with one reusable project component." 
+                    description="This web app was created using React and CSS with BEM methodology. These project cards were made with one reusable project component." 
                     liveURL="#home" 
                     sourceCodeURL="https://github.com/willcary/portfolio-react" 
                     src={portfolioImage}
