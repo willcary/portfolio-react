@@ -1,6 +1,6 @@
 # Will Cary - Portfolio
 
-Will Cary's personal portolio to showcase his front-end development skills. View live [here]().
+Will Cary's personal portolio to showcase his front-end development skills. View live [here](https://www.williamacary.com/).
 
 ## Motivation
 
@@ -8,10 +8,9 @@ I built this app to share who I am and the work I have done thus far in my codin
 
 ## Technologies
 
-Built with:
-_ [React](https://reactjs.org/)
-_ [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [React](https://reactjs.org/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Create React App](https://github.com/facebook/create-react-app).
 
 ## Credits
 
