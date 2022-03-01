@@ -1,8 +1,9 @@
 import React from 'react'
 import Project from './Project'
 import './../css/projects.css'
-import climateAppImage from '../images/Climate-Comparison-App.jpg'
+import leWordImage from '../images/le-word.jpg'
 import coiltekImage from '../images/CS-5000-product.jpg'
+import climateAppImage from '../images/Climate-Comparison-App.jpg'
 import speedTypingImage from '../images/speed-typing-game.JPG'
 import picSomeImage from '../images/Pic-Some-1.JPG'
 import portfolioImage from '../images/portfolio.JPG'
@@ -17,13 +18,14 @@ function Projects() {
             <div className="portfolio">
                 {/* --------------portfolio item 01-------------- */}
                 <Project 
-                    title="Climate Comparison App" 
-                    description="React app that compares climates between two locations by using the MapQuest geocode API and the MeteoStat API. Recharts was used to create graphs." 
-                    liveURL="https://climate-comparison-app.netlify.app/" 
-                    sourceCodeURL="https://github.com/willcary/climate-comparison-public" 
-                    src={climateAppImage}
-                    alt="Climate Comparison App picture"
+                    title="Le Word App" 
+                    description="A Wordle clone created with react that uses the Bing Spell Check API and the Random Words API. Stats are retained through localStorage." 
+                    liveURL="https://leword.netlify.app/" 
+                    sourceCodeURL="https://github.com/willcary/le-word-app" 
+                    src={leWordImage}
+                    alt="Le Word Application"
                 />
+                
                 {/* --------------portfolio item 02-------------- */}
                 <Project 
                     title="Coiltek Website" 
@@ -36,6 +38,16 @@ function Projects() {
 
                 {/* --------------portfolio item 03-------------- */}
                 <Project 
+                    title="Climate Comparison App" 
+                    description="React app that compares climates between two locations by using a geocode API and the MeteoStat Climate API. Recharts was used to create graphs." 
+                    liveURL="https://climate-comparison-app.netlify.app/" 
+                    sourceCodeURL="https://github.com/willcary/climate-comparison-public" 
+                    src={climateAppImage}
+                    alt="Climate Comparison App picture"
+                />
+
+                {/* --------------portfolio item 04-------------- */}
+                <Project 
                     title="Backstage Talks" 
                     description="Recreation of the Backstage Talks website (https://backstagetalks.com/). React app that implements responsive scroll snapping and animated background-color transitions." 
                     liveURL="https://backstage-talks.netlify.app/" 
@@ -43,8 +55,9 @@ function Projects() {
                     src={backstageTalks}
                     alt="Picture of recreated Backstage Talks site."
                 />
-
-                {/* --------------portfolio item 04-------------- */}
+                
+                
+                {/* --------------portfolio item 05-------------- */}
                 <Project 
                     title="Speed Typing Game" 
                     description="React app that tracks how many words per minute you type and uses the Window Storage API to retain your high score in localStorage." 
@@ -52,17 +65,6 @@ function Projects() {
                     sourceCodeURL="https://github.com/willcary/speed-typing-game" 
                     src={speedTypingImage}
                     alt="Speed typing game picture"
-                />
-                
-                {/* --------------portfolio item 05-------------- */}
-                <Project 
-                    title="Pic Some App" 
-                    description='React app that allows users to favorite pictures, add them to the cart and "order". 
-                    *This is not intended to be a functional store.*'
-                    liveURL="https://pict-some.netlify.app/" 
-                    sourceCodeURL="https://github.com/willcary/pic-some" 
-                    src={picSomeImage}
-                    alt="Pic-Some app home page"
                 />
                 
                 {/* --------------portfolio item 06-------------- */}
