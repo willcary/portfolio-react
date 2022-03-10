@@ -17,10 +17,11 @@ function About() {
                     <div className="about-me__skills-item">HTML</div>
                     <div className="about-me__skills-item">CSS</div>
                     <div className="about-me__skills-item">JavaScript</div>
-                    <div className="about-me__skills-item">Responsive Design</div>
                     <div className="about-me__skills-item">Git</div>
+                    <div className="about-me__skills-item">ES6</div>
+                    <div className="about-me__skills-item">Responsive Design</div>
                     <div className="about-me__skills-item">Bootstrap</div>
-                    <div className="about-me__skills-item">Scss</div>
+                    <div className="about-me__skills-item">SCSS</div>
                 </div>
             </div>
         </section>
