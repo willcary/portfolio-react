@@ -30,7 +30,7 @@ function Projects() {
         {/* --------------portfolio item 02-------------- */}
         <Project
           title='Le Word App'
-          description='A Wordle clone created with react that uses the Bing Spell Check API and the Random Words API. Stats are retained through localStorage.'
+          description='A Wordle clone created with react that uses the Bing Spell Check API and the Random Words API. Stats are retained in localStorage.'
           liveURL='https://leword.netlify.app/'
           sourceCodeURL='https://github.com/willcary/le-word-app'
           src={leWordImage}
@@ -50,7 +50,7 @@ function Projects() {
         {/* --------------portfolio item 04-------------- */}
         <Project
           title='Coiltek Website'
-          description='Custom website made for Coil Technology, Inc. This site was made using html, css, and bootstrap. It was deployed through bluehost.'
+          description='Custom website made for Coil Technology, Inc. This site was made using html, css, and bootstrap. It is deployed through bluehost.'
           liveURL='https://www.coiltek.com/'
           sourceCodeURL=''
           src={coiltekImage}

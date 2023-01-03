@@ -20,11 +20,9 @@ function About() {
           when prompted to produce original, inventive ideas. I find coding to
           be the perfect balance of logic and creativity. I'm constantly working
           to improve and broaden my skillset with relevant technologies.
-        </p>
-        <p>
-          When I'm not coding, I'm usually pursuing some outdoor activity
-          inluding trail running, hiking, mountain biking, cross country skiing,
-          paddleboarding, etc...
+          Currently, I'm using and learning <em>TypeScript</em>,<em>Node</em>,{' '}
+          <em>Express</em>, <em>PostgreSQL</em>, <em>React Hook Form</em>,{' '}
+          <em>Chart.js</em>, and <em>Auth0</em>.
         </p>
       </div>
       <div className='about-me__skills'>
