@@ -19,16 +19,6 @@ function Projects() {
       <div className='portfolio'>
         {/* --------------portfolio item 01-------------- */}
         <Project
-          title='Stork Registries'
-          description='A baby registry app built with the PERN stack, Typescript, and Auth0 for authentication of registry owner. Deployed through Heroku.'
-          liveURL='https://stork-registries.herokuapp.com/'
-          sourceCodeURL='https://github.com/willcary/baby-registry-heroku'
-          src={registryImage}
-          alt='Confirmation modal for reserving baby registry items'
-        />
-
-        {/* --------------portfolio item 02-------------- */}
-        <Project
           title='Le Word App'
           description='A Wordle clone created with react that uses the Bing Spell Check API and the Random Words API. Stats are retained in localStorage.'
           liveURL='https://leword.netlify.app/'
@@ -37,7 +27,7 @@ function Projects() {
           alt='Le Word Application'
         />
 
-        {/* --------------portfolio item 03-------------- */}
+        {/* --------------portfolio item 02-------------- */}
         <Project
           title='Climate Comparison App'
           description='React app that compares climates between two locations by using a geocode API and the MeteoStat Climate API. Recharts was used to create graphs.'
@@ -45,6 +35,16 @@ function Projects() {
           sourceCodeURL='https://github.com/willcary/climate-comparison-public'
           src={climateAppImage}
           alt='Climate Comparison App picture'
+        />
+
+        {/* --------------portfolio item 03-------------- */}
+        <Project
+          title='Stork Registries'
+          description='A baby registry app built with the PERN stack, Typescript, and Auth0 for authentication of registry owner. Database temporarily down while switching hosting platform.'
+          liveURL='https://stork-registries.herokuapp.com/'
+          sourceCodeURL='https://github.com/willcary/baby-registry-heroku'
+          src={registryImage}
+          alt='Confirmation modal for reserving baby registry items'
         />
 
         {/* --------------portfolio item 04-------------- */}
