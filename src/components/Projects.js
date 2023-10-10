@@ -42,7 +42,7 @@ function Projects() {
           title='Stork Registries'
           description='A baby registry app built with the PERN stack, Typescript, and Auth0 for authentication of registry owner. Database temporarily down while switching hosting platform.'
           liveURL='https://stork-registries.herokuapp.com/'
-          sourceCodeURL='https://github.com/willcary/baby-registry-heroku'
+          sourceCodeURL='https://github.com/willcary/stork-registries'
           src={registryImage}
           alt='Confirmation modal for reserving baby registry items'
         />
